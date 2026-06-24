@@ -1,0 +1,48 @@
+{
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  
+  
+  "emmet.syntaxProfiles": {
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+       "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.tabSizing": "shrink",
+    "git.ignoreMissingGitWarning": true,
+    "editor.glyphMargin": false,
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.fontSize": 20,
+    
+    "editor.smoothScrolling": true,
+    "editor.tabSize": 2,
+    "editor.hover.enabled": false, 
+    "editor.folding": false,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.defaultProfile.windows": "Git Bash", 
+    
+    "files.defaultLanguage": "html",
+    "window.zoomLevel": 1,
+    "window.menuBarVisibility": "toggle",
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+    "breadcrumbs.enabled": false,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.preferences": {
+      "output.reverseAttributes": true
+    },
+    "emmet.syntaxProfiles": {
+      "html": {
+        "inline_break": 1
+      }
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "vscodeGoogleTranslate.preferredLanguage": "English",
+}
+
+  }
+}
