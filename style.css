@@ -18,7 +18,45 @@ p {
   color: #6a859c;
 }
 
+
+
+.hide {
+  display: none !important;
+}
+
+
+
+.title {
+margin-bottom: 17px;
+
+font-size: 30px;
+line-height: 1.2;
+
+letter-spacing: 5px;
+text-transform: uppercase;
+
+color: #676770;
+}
+.subtitle {
+margin-bottom: 60px;
+
+text-transform: uppercase;
+font-size: 17px;
+letter-spacing: 3px;
+}
+
+
+font-size: 17px;
+line-height: 1.18;
+
+letter-spacing: 3px;
+text-transform: uppercase;
+
+color: #8e8e9c;
+}
+
 /*------ Header ----- */
+
 .header {
   padding: 20px 0;
 
@@ -66,12 +104,9 @@ p {
 .header__nav a:active {
   color: #0057a2;
 }
-
-/* -----Main------ */
-.main {
-}
-
 /* -----Welcome----- */
+
+
 .welcome {
   min-height: 600px;
   height: 100vh;
@@ -148,3 +183,55 @@ p {
   background-color: rgba(0, 0, 0, 0.2);
   border-color: rgba(0, 0, 0, 0.5)
 }
+
+/* -----ABOUT (WHAT WE DO----- */
+
+.common-section {
+text-align: center;
+padding: 80px 0;
+}
+
+.about .cards-wrapper {
+display: flex;
+justify-content: space-between;
+
+}
+
+.about .card {
+width: 300px;
+padding: 36px 16px 20px;
+
+border: 1px solid #dcebf7;
+border-radius: 5px;
+}
+
+.about .card img {
+margin-bottom: 20px;
+
+width: 94px;
+height: 94px;
+object-fit: contain;
+}
+
+.about .card h4 {
+margin-bottom: 15px;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 7px;
+text-transform: uppercase;
+color: #676770;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
