@@ -266,7 +266,6 @@ p {
 
 .tabs__nav {
   margin-bottom: 50px;
-
 }
 .tabs__nav button {
   padding: 0px 30px;
@@ -283,11 +282,11 @@ p {
 }
 
 .tabs__nav button.active {
-  background: #2e80b6;;
+  background: #2e80b6;
 }
 
 .tabs__nav button.active:hover {
-  background: #4C7A98;
+  background: #4c7a98;
 }
 
 .tabs__nav button + button {
@@ -311,13 +310,88 @@ p {
   max-width: 714px;
   margin: 0 auto;
 
-  color: #6A859C;
+  color: #6a859c;
 }
 
+/* -----FOOTER----- */
 
+.footer {
+}
 
+.footer__desc {
+  padding: 35px 0;
+}
 
+.footer__desc-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
 
+.footer__desc-container > * {
+  width: 30%;
+}
 
+.footer__desc h4 {
+  margin-bottom: 25px;
 
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 
+  color: #676770;
+}
+
+.footer__desc a {
+  font-size: 13px;
+  line-height: 20px;
+  color: #668cad;
+}
+
+.footer__desc li {
+  height: 30px;
+  position: relative;
+}
+
+.footer__desc li::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  background: #d5d5e0;
+}
+
+.footer__desc li + li {
+  margin-top: 6px;
+}
+
+.footer__social img {
+  margin-right: 10px;
+
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.footer__social li::before {
+  width: calc(100% - 34px);
+}
+.footer__copyright {
+  padding: 40px 0;
+  height: 101px;
+
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #9e9e9e;
+  background: #383838;
+}
+
+.footer__copyright p {
+  color: #9E9E9E;
+}
